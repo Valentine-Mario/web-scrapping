@@ -1,0 +1,187 @@
+[
+  {
+    "commit_message": "Decode munged disposition. Fixes #244",
+    "link": "https://github.com/nodemailer/mailparser/commit/e24a7e7cc2fa6afc9ff89ece2fb816fb8102a74d",
+    "user": "andris9"
+  },
+  {
+    "commit_message": null,
+    "link": "https://github.comhttps://github.com/nodemailer/mailparser/issues/244",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.7.7",
+    "link": "https://github.com/nodemailer/mailparser/commit/6bfb93e1302e50f2dee4cc96795474be56862518",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "Reimplemented #231",
+    "link": "https://github.com/nodemailer/mailparser/commit/a8222e2cca137be780fcc6536d576bfbca0d9fb1",
+    "user": "rustyconover"
+  },
+  {
+    "commit_message": null,
+    "link": "https://github.comhttps://github.com/nodemailer/mailparser/pull/231",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "Remove double decoding of header value via libmime, add test for colons in From header.\n\nFix the parsing of names that contain colons, i.e. \":.Example.: <example@example.com>\"",
+    "link": "https://github.com/nodemailer/mailparser/commit/9eecb85eac5b59ada22da9781dbe8ebbfd253b90",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "Create FUNDING.yml",
+    "link": "https://github.com/nodemailer/mailparser/commit/81c1e35aa46ab67d4df26585b08c42b5d46a0036",
+    "user": "tajinder"
+  },
+  {
+    "commit_message": "Charset to lowercase before comparing\n\nIconv still throws error when charset is in uppercase KS_C_5601-1987\nConvert to lowercase before comparing",
+    "link": "https://github.com/nodemailer/mailparser/commit/9636083b806e60a953a640a4f833a700931b5618",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.7.6",
+    "link": "https://github.com/nodemailer/mailparser/commit/3edfefea087385ad9a36880621dc7eb28744353c",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.7.5",
+    "link": "https://github.com/nodemailer/mailparser/commit/215492106ebfabdeeb107c8e729060dbd1c94fae",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.7.4",
+    "link": "https://github.com/nodemailer/mailparser/commit/876d9c3d2015be095a71826139605f452d3a18dd",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "Use encoding-japanese for iso-2022-jp by default",
+    "link": "https://github.com/nodemailer/mailparser/commit/b91e70d42e532300e954f8bea2f8a64d06da2824",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.7.3",
+    "link": "https://github.com/nodemailer/mailparser/commit/f15c3013e10aa26a41e15fae35a282c0362e607c",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.7.2",
+    "link": "https://github.com/nodemailer/mailparser/commit/053d9617f6d4bd4a835d9a0798d66e8e689cc777",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "fixed issue with non-ending callbacks",
+    "link": "https://github.com/nodemailer/mailparser/commit/5b1595e35d3419ec8a63ab324994dc16cbebe90b",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "use Buffer.from(input, 'binary')",
+    "link": "https://github.com/nodemailer/mailparser/commit/08f17398dceb8941de5d73d538ac859e7d5e7248",
+    "user": "kt286"
+  },
+  {
+    "commit_message": "fix(simple-parser): Buffer.from(string) default encode is utf-8,when input string‘s encode is gbk,result has some garbled\n\nBuffer.from(string) default encode is utf-8,when input string‘s encode is gbk,result has some garbled",
+    "link": "https://github.com/nodemailer/mailparser/commit/633e4369c93dc5122c8c8bee0fd2b057761e1223",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "remove space-only name test and patch assumption about flowed module",
+    "link": "https://github.com/nodemailer/mailparser/commit/ceba79f6a935cf8bb7b4fa0a9038c6c3083c37e0",
+    "user": "kt286"
+  },
+  {
+    "commit_message": "Support encoded address lists. \n\nuse case header in which the entire name-and-address is all encoded in one block such as:\n\nFrom: =?utf-8?B?IlJ5ZGVsIiA8UnlkZWxrYWxvdEAxN2d1YWd1YS5jb20+?=",
+    "link": "https://github.com/nodemailer/mailparser/commit/c56a38c0440125e8e05373d9dc10f987e94e9d1d",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "fix: error on ks_c_5601-1987",
+    "link": "https://github.com/nodemailer/mailparser/commit/89572e000d815704378261c753f59442397b8564",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "fix: handle simpleParser input stream error",
+    "link": "https://github.com/nodemailer/mailparser/commit/faf9fc5d8a27c1f88b7a126782d84ce2fef4d4bd",
+    "user": "DavidIAm"
+  },
+  {
+    "commit_message": "Add option to skip html to text conversion",
+    "link": "https://github.com/nodemailer/mailparser/commit/9463fe8fc31b3436ea3941a396303ff8adc877d6",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.7.1",
+    "link": "https://github.com/nodemailer/mailparser/commit/0d126902e07bc7e0f7a822b2f032103112b49b17",
+    "user": "luddd3"
+  },
+  {
+    "commit_message": "v2.7.0",
+    "link": "https://github.com/nodemailer/mailparser/commit/7cba5bcfc2591088b02b238a495e4e741825205c",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "fix: capture decoder end event to use on cleanup\n\nchecking for decoder.readable is not sufficient to assure decoder has\nnot already ended",
+    "link": "https://github.com/nodemailer/mailparser/commit/4e367f7fda2505b9edb8e195eb5b1a8e1d1531fc",
+    "user": "luddd3"
+  },
+  {
+    "commit_message": "Move eslint into devDependencies",
+    "link": "https://github.com/nodemailer/mailparser/commit/c4b4d7d0079bc049009bed40a986ef0e7d4e90b1",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "fixed invalid license file",
+    "link": "https://github.com/nodemailer/mailparser/commit/403176fbe3886cb3938a5a882be0951585f8b45f",
+    "user": "luddd3"
+  },
+  {
+    "commit_message": "v2.6.0",
+    "link": "https://github.com/nodemailer/mailparser/commit/92ad01dfc89d56bd0e03cfeecd26ddb297dbccb9",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.5.0",
+    "link": "https://github.com/nodemailer/mailparser/commit/4af69d9990963338f11bd49a645c17e735461546",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "bumped deps",
+    "link": "https://github.com/nodemailer/mailparser/commit/53216af6445e42edd1c2ddcc6bf66a245f81ede8",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "Properly propagate errors for simpleParser",
+    "link": "https://github.com/nodemailer/mailparser/commit/0dba5fcef096525b04e802ff57d2b0777d8023fd",
+    "user": "petersalomonsen"
+  },
+  {
+    "commit_message": "Skip decoding for UTF-8",
+    "link": "https://github.com/nodemailer/mailparser/commit/770616059ba966af09dff293cd91ed79b7e087dd",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "Add partId attribute on attachment",
+    "link": "https://github.com/nodemailer/mailparser/commit/543460fd6742d7e0b4a46cf828cb8a1108818123",
+    "user": "sairus2k"
+  },
+  {
+    "commit_message": "Added option for setting restrictions for how long html content to parse",
+    "link": "https://github.com/nodemailer/mailparser/commit/b261a26a42e7a44371559ad052032bd7c76b939a",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "Test case for attachment as base64 encoded root node",
+    "link": "https://github.com/nodemailer/mailparser/commit/f681f8d47ac3be9df7494a8a6a2db8383b0d78f2",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "v2.4.3",
+    "link": "https://github.com/nodemailer/mailparser/commit/9465685142fa8dab3e1e6669e309eb3c61b87801",
+    "user": "andris9"
+  },
+  {
+    "commit_message": "Only decode base64 encoded root-nodes if they are flowed",
+    "link": "https://github.com/nodemailer/mailparser/commit/f4720aa48c04a9b61ee1dac6c10d94e95c5bee2e",
+    "user": "andris9"
+  }
+]
